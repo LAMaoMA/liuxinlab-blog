@@ -4,7 +4,7 @@
 html{scroll-behavior:smooth}
 body{margin:0;background:#fff;color:var(--ink);font-family:Montserrat,"Noto Sans SC",Arial,sans-serif;font-size:16px;line-height:1.8}
 a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}
-.site-header{height:284px;padding:68px 24px 0;background:#fff;text-align:center}
+.site-header{height:220px;padding:68px 24px 0;background:#fff;text-align:center}
 .site-title{display:block;margin:0 auto 30px;color:#4b4b4b;font-family:"Playfair Display",Georgia,serif;font-size:34px;line-height:1.35;font-weight:500;letter-spacing:3px}
 .site-title span{font-family:"Noto Sans SC",sans-serif;font-size:30px;letter-spacing:1px;margin-left:18px}
 .nav-wrap{max-width:1380px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:32px}
@@ -25,7 +25,7 @@ nav a:hover,nav a.current{background:#f4f4f4;color:#4b4b4b;text-decoration:none}
 .email-line.indent{padding-left:75px}
 .profile-button{display:inline-block;margin-top:3px;padding:7px 24px;background:#5d6fe0;color:#fff;font-size:14px;font-weight:700;letter-spacing:.5px}
 .profile-button:hover{background:#4e5fce;color:#fff;text-decoration:none}
-.page-main{max-width:1080px;margin:0 auto;padding:65px 28px 85px;min-height:650px}
+.page-main{max-width:1080px;margin:0 auto;padding:40px 28px 85px;min-height:650px}
 .page-main h1{font-size:31px;font-weight:600;color:#333;margin:0 0 32px}
 .page-main h1 span{font-family:"Noto Sans SC",sans-serif;font-size:22px;color:#777;font-weight:400;margin-left:12px}
 .page-main h2{font-size:20px;margin:32px 0 12px;color:#333}
