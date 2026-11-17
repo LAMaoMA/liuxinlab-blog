@@ -108,3 +108,7 @@ footer{max-width:1080px;margin:0 auto;padding:18px 28px 35px;color:#999;font-siz
   display: inline;
   margin: 0;
 }
+
+/* CV: show source-provided dates inline with each entry */
+.page-main .cv-list{padding-left:58px;margin-top:5px}
+.page-main .cv-list li{padding:2px 0;line-height:1.9}
