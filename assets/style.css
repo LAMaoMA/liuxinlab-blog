@@ -45,3 +45,66 @@ nav a:hover,nav a.current{background:#f4f4f4;color:#4b4b4b;text-decoration:none}
 footer{max-width:1080px;margin:0 auto;padding:18px 28px 35px;color:#999;font-size:12px;border-top:1px solid #eee}
 @media(max-width:900px){.site-header{height:auto;padding:38px 16px 32px}.site-title{font-size:27px;margin-bottom:22px}.site-title span{font-size:23px;margin-left:8px}.nav-wrap{gap:10px}.nav-line{display:none}nav{gap:3px}nav a{padding:8px 10px;font-size:12px}.home-hero{padding:42px 22px}.hero-inner{grid-template-columns:minmax(0,1fr);gap:36px;max-width:560px}.photo-placeholder{height:440px;max-width:100%;margin:auto}.profile-copy{font-size:18px}.profile-role{font-size:24px}.profile-affiliation{font-size:20px;margin-bottom:25px}.profile-block h2{font-size:19px}.page-main{padding:42px 22px}.cv-row{grid-template-columns:1fr;gap:3px}}
 @media(max-width:480px){.site-title{font-size:22px;letter-spacing:1.5px}.site-title span{font-size:19px}nav a{font-size:11px;padding:7px 8px}.photo-placeholder{height:380px}.profile-copy{font-size:16px}.profile-affiliation{font-size:18px}}
+
+/* ===== Academic Homepage Reference Style ===== */
+
+/* 普通页面：白色背景、居中窄版正文 */
+.page-main {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 65px 25px 85px;
+  min-height: 650px;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 18px;
+  line-height: 1.9;
+  color: #292929;
+}
+
+/* 页面大标题 */
+.page-main h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 35px;
+}
+
+/* 紫色栏目标题 */
+.page-main h2 {
+  color: #6556ce;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 28px;
+  margin-bottom: 8px;
+}
+
+/* 项目符号 */
+.page-main ul {
+  padding-left: 58px;
+  margin-top: 5px;
+}
+
+.page-main li {
+  padding: 2px 0;
+  line-height: 1.9;
+}
+
+.page-main li::marker {
+  color: #92999e;
+}
+
+/* 简历时间和内容 */
+.cv-row {
+  display: block;
+  padding: 3px 0;
+  border: none;
+}
+
+.cv-row time {
+  display: none;
+}
+
+.cv-row p {
+  display: inline;
+  margin: 0;
+}
