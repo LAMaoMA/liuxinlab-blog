@@ -48,11 +48,11 @@ footer{max-width:1080px;margin:0 auto;padding:18px 28px 35px;color:#999;font-siz
 
 /* ===== Academic Homepage Reference Style ===== */
 
-/* 普通页面：白色背景、居中窄版正文 */
+/* 普通页面：正文从导航栏下方正常开始，保持参考网站的留白 */
 .page-main {
-  max-width: 820px;
-  margin: -180px auto 0;
-  padding: 0 25px 85px;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 40px 28px 85px;
   min-height: 650px;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 18px;
